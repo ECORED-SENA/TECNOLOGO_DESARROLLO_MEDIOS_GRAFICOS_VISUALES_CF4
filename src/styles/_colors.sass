@@ -1,3 +1,4 @@
+//BACKGROUNDS COLORS//
 .bg
   &--1
     background-color: $color-primario !important
@@ -6,7 +7,7 @@
   &--2
     background-color: $color-secundario !important
     &-claro
-      background-color: lighten($color-secundario, 15% ) !important
+      background-color: lighten($color-secundario, 27% ) !important
   &--3
     background-color: $color-acento-contenido !important
     &-claro
@@ -15,6 +16,10 @@
     background-color: $color-acento-botones !important
     &-claro
       background-color: lighten($color-acento-botones, 30% ) !important
+//BACKGROUNDS COLORS//
+
+
+//TEXT COLORS//
 .text-system
   p, h1, h2, h3, h4, h5, h6, span, i
     color: $color-sistema-texto !important
@@ -31,3 +36,20 @@
   &--4
     p, h1, h2, h3, h4, h5, h6, span, i 
       color: $color-acento-botones !important
+//TEXT COLORS//
+
+
+//ANIMATIONS//
+
+.hover
+  transition: transform .3s ease-in-out
+  &:hover
+    transform: scale(1.02)
+.hover-flip
+  figure
+    transition: transform 1s ease-in-out
+  &:hover
+    figure
+      transform: rotateY(360deg)
+      transform-style: preserve-3d
+      perspective: 1000px

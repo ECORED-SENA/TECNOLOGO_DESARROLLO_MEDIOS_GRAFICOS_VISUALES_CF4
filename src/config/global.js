@@ -24,116 +24,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Qué es la comunicación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
+            titulo: 'Técnicas de comunicación',
             hash: 'encabezados',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
+            titulo: 'Comunicación visual',
             hash: 'parrafos',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
+            titulo: 'Imagen y sociedad ',
             hash: 'botones',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
+            titulo: 'Semiótica, retórica y sintaxis de la imagen',
             hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
           },
         ],
       },
@@ -141,90 +57,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Propiedad intelectual',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Derechos de autor',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: '<i>Copyright</i>',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Derechos, permisos y licenciamientos',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -265,140 +117,142 @@ export default {
   },
   referencias: [
     {
+      referencia: 'Definición.xyz. (s. f.). Técnicas de Comunicación',
+      link: 'https://definicion.xyz/tecnicas-de-comunicacion',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Díaz, C. (2019). Lenguaje visual, principios y caso de estudio Aena. Social Media PYMES.',
+      link: 'http://www.socialmediapymes.com/lenguaje-visual/',
+    },
+    {
+      referencia:
+        'Dirección Nacional de Derecho de Autor. (s. f.). Preguntas frecuentes. ',
+      link: 'http://derechodeautor.gov.co:8080/preguntas-frecuentes',
+    },
+    {
+      referencia:
+        'Dondis, D. (2017). La sintaxis de la imagen. Introducción al alfabeto visual. Editorial Gustavo Gili.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://ggili.com.mx/media/catalog/product/9/7/9788425229299_inside.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Karam, T. (2006). Introducción a la semiótica de la imagen. Portal de la Comunicación InCom-UAB. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://investigacionsocial.sociales.uba.ar/wp-content/uploads/sites/103/2013/03/SEMIOTICA-KARAM.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ley 23 de 1982. Sobre los Derechos de Autor. Enero 28 de 1982. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://propiedadintelectual.unal.edu.co/fileadmin/recursos/innovacion/docs/normatividad_pi/ley23_1982.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Llasera, J. (2020). Los 7 elementos visuales claves del diseño gráfico. Imborrable.',
+      link: 'https://imborrable.com/blog/elementos-visuales-diseno-grafico/',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Machuca, R. (2011). La importancia del Diseño de Comunicación Visual desde las enseñanzas artísticas medias y superiores. Diseño en Palermo. Encuentro Latinoamericano de Diseño.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://fido.palermo.edu/servicios_dyc/encuentro2007/02_auspicios_publicaciones/actas_diseno/articulos_pdf/ADC077.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Nediger, M. (2020). Comunicación Visual: Definición, Ejemplos y Plantillas. Venngage.',
+      link: 'https://es.venngage.com/blog/comunicacion-visual/',
+    },
+    {
+      referencia: 'Peiró, R. (2020). Copyright. Economipedia.com.',
+      link: 'https://economipedia.com/definiciones/copyright.html',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Pozo. (2001). El tipo y sus partes. Líneas de trazado y la distancia entre caracteres. Sistemas de medición.',
+      link: 'http://www.catedratecno1.com.ar/apuntes/sistemas-de-medicion.pdf',
+    },
+    {
+      referencia:
+        'Santos, D. (2012). Fundamentos de la comunicación. Red Tercer Milenio.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.aliat.org.mx/BibliotecasDigitales/comunicacion/Fundamentos_de_comunicacion.pdf',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio. (2017). Reporte sobre la información en materia de propiedad intelectual en Colombia. DNP, DNDA, ICA, Ministerio de Relaciones Exteriores. ',
+      link:
+        'https://www.sic.gov.co/sites/default/files/files/Proteccion_Competencia/Estudios_Economicos/Documentos_elaborados_Grupo_Estudios_Economicos/Reporte-informacion-en-materia-de-Propiedad-Intelectual-en-Colombia.pdf',
+    },
+    {
+      referencia:
+        'Valencia, M. (2019). Las 7 Técnicas de Comunicación Eficaz que debes dominar.',
+      link: 'https://marianvalencia.com/tecnicas-de-comunicacion-eficaz/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'API',
+      significado: 'Aula de Propiedad Intelectual.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'CAN',
+      significado: 'Comunidad Andina de Naciones.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Comunicación Visual',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'La comunicación visual es una práctica que se encarga de utilizar los elementos visuales para expresar un mensaje, inspirar cambios o evocar emociones.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Derechos de Autor',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Se utilizan para describir los derechos de los creadores sobre sus obras literarias y artísticas. Las obras que se prestan a la protección por derecho de autor van desde los libros, la música, la pintura, la escultura y las películas, hasta los programas informáticos, las bases de datos, los anuncios publicitarios, los mapas y los dibujos técnicos.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'DNDA',
+      significado: 'Dirección Nacional de Derecho de Autor.',
     },
     {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'Imagen',
+      significado: 'Figura, representación, semejanza y apariencia de algo.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Línea',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Sucesión de letras separadas por espacios que forman palabras. Trazo hecho con una regla recta y un tiralíneas.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Ojo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'El ojo del tipo es lo que se ve de la letra impresa. Es la altura y la anchura real de la letra, su perfil, el contraste de blanco y negro dentro y fuera de ella. Ojo, en el sistema de impresión tipográfica, es la parte que está en relieve y que deja huella en el papel (Pozo, 2001).',
     },
     {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+      termino: 'OMPI',
+      significado: 'Organización Mundial de Propiedad Intelectual.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Semiótica',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la disciplina encargada del estudio del signo, es decir, aquello que se emplea para representar una idea o un objeto diferente de sí mismo.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Sintaxis',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es aquel ámbito, dentro de la gramática, que estudia y establece las reglas para propiciar una correcta combinación de palabras, las formas en las que se pueden establecer las composiciones.',
     },
     {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'SIC',
+      significado: 'Superintendencia de Industria y Comercio.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Dirección Nacional de Derecho de Autor. (s. f.). Registro de Obras. Mininterior. ',
+      tipo: 'Página Web',
+      link: 'http://derechodeautor.gov.co:8080/registro-de-obras1',
     },
   ],
   creditos: {
@@ -416,6 +270,33 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carlos Andrés Suescun Lesmes ',
+        cargo: 'Experto temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Gloria Amparo López escudero',
+        cargo: 'Diseñadora y Evaluadora Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
     ],
     desarrolloProducto: [
       {
@@ -430,14 +311,20 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
