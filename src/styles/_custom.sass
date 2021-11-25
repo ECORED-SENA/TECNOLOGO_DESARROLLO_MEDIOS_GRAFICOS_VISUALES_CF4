@@ -1,0 +1,105 @@
+
+// ADORNOS FLOTANTES //
+.imagen-adornos-flotantes
+  position: relative
+  &__img
+    img
+      position: absolute
+      z-index: 99
+      animation: float 3s ease-in-out infinite alternate
+
+@keyframes float
+  0%
+    transform: translateY(10px)
+
+  100%
+    transform: translateY(0px)
+.texto-adorno
+  width: fit-content
+  position: relative
+  &:before
+    content: url(../assets/curso/13.svg)
+    position: absolute
+    top: -40%
+    right: -10%
+    width: 46px
+// ADORNOS FLOTANTES //
+
+
+
+// BACKGROUNDS PERSONALIZADOS //
+.bg--texture
+  background-image: url(../assets/curso/bg-texture.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.bg-slyder
+  background-image: url(../assets/curso/bg-slyder.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+// BACKGROUNDS PERSONALIZADOS //
+
+
+
+.btn-white
+  .img-infografica__item__dot:before, .img-infografica__item__dot:after
+    background-color: #fff !important
+
+
+
+  
+// CARRUSEL SLYDER //
+.slyder-tarjeta
+  background-color: #fff
+  position: relative
+  height: 100%
+  padding-top: 70px !important
+  &:before
+    content: url(../assets/curso/dots.svg)
+    position: absolute
+    top: 10%
+    left: 5%
+    width: 100%
+    height: 100%
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover, 
+  background-color: transparent
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/izquierda.svg) !important
+.carousel-control-next-icon
+  background-image: url(../assets/curso/derecha.svg) !important
+// CARRUSEL SLYDER //
+
+
+
+
+// TARJETA TEXTO UP //
+.tarjetas-text
+  position: relative
+  overflow: hidden
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    border-radius: 10px
+    position: absolute
+    background-color: #F6F6F6 !important
+    bottom: -15%
+    p
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      display: none
+  &:hover
+    .tarjetas-text__contenido
+      bottom: 0
+      p
+        opacity: 1
+        display: block
+// TARJETA TEXTO UP //
+
+
+// BACKGROUND TABS ////R
+.tabs-a__tab
+  background-color: #E8E8E8 
