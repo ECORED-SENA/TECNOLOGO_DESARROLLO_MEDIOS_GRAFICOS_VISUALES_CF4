@@ -101,7 +101,7 @@
       .row
         .col-lg-5: img(src="@/assets/curso/6.svg")
         .col-lg-7 
-          h2.h1 Tenga en cuenta...
+          h2 Tenga en cuenta...
           p La comunicación debe ser clara y concreta.
             br
             br
@@ -251,12 +251,13 @@
           .bloque-texto-f__comillas.c--4
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto.text-center.mt-4 “La comunicación visual es prácticamente todo lo que ven nuestros ojos; una nube, una flor, un dibujo técnico, un zapato, un cartel, una libélula, un telegrama (excluyendo su contenido), una bandera. Imágenes que, como todas las demás, tienen un valor distinto, según el contexto en el que están insertas, dando informaciones diferentes … Dado que se le está otorgando valor comunicativo a lo que puede percibirse con la vista, se debe aclarar que algunos mensajes serían casuales y otros intencionales; la comunicación visual casual es la que no tiene intención alguna, es temporal y puede ser percibida o interpretada libremente por el receptor, dándole un significado científico o estético; por su parte, la comunicación visual intencional es recibida en pleno significado, con una intención del emisor, si bien la intencionalidad no libra al receptor de realizar interpretaciones”. 
+          h4.text-regular.bloque-texto-f__texto.text-center.mt-4 La comunicación visual es prácticamente todo lo que ven nuestros ojos; una nube, una flor, un dibujo técnico, un zapato, un cartel, una libélula, un telegrama (excluyendo su contenido), una bandera. Imágenes que, como todas las demás, tienen un valor distinto, según el contexto en el que están insertas, dando informaciones diferentes … Dado que se le está otorgando valor comunicativo a lo que puede percibirse con la vista, se debe aclarar que algunos mensajes serían casuales y otros intencionales; la comunicación visual casual es la que no tiene intención alguna, es temporal y puede ser percibida o interpretada libremente por el receptor, dándole un significado científico o estético; por su parte, la comunicación visual intencional es recibida en pleno significado, con una intención del emisor, si bien la intencionalidad no libra al receptor de realizar interpretaciones. 
           .bloque-texto-f__autor.mb-3
             h3.mb-0  (Munari, 1985)
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
+    p.mb-5 Los mensajes intencionales pueden ser vistos desde dos aspectos: 
     .row.mb-5
       .col-lg-6
         .tarjeta.tarjetas-text(@mouseover="mostrarIndicador= false")
@@ -302,7 +303,7 @@
         p Quien recibe el mensaje; debe conocer los signos con el objetivo de comunicar el mensaje. 
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Elementos de la comunicación visual
-    p.mb-5 Los elementos visuales constituyen la base de lo que un ser humano puede ver:Los elementos visuales constituyen la base de lo que un ser humano puede ver:
+    p.mb-5 Los elementos visuales constituyen la base de lo que un ser humano puede ver: los elementos visuales constituyen la base de lo que un ser humano puede ver:
     .d-flex.flex-wrap.mb-5
       .tarjeta.tarjeta-flip.bg--4-claro.m-1(@mouseover="indicadorTarjetaFlip = false")
         .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -357,7 +358,7 @@
             h2.text-center.mb-0 Movimiento
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 Son la materia prima de todo contexto visual que está conformado por elecciones y combinaciones selectivas, de acuerdo con un contexto determinado. La estructura de trabajo visual es el eje que determina qué elementos visuales pueden estar presentes y cómo se pueden enfocar.
+        p.mb-3 Son la materia prima de todo contexto visual que está conformado por elecciones y combinaciones selectivas, de acuerdo con un contexto determinado. <b>La estructura de trabajo visual es el eje que determina qué elementos visuales pueden estar presentes y cómo se pueden enfocar.</b>
           br
           br
           |El conocimiento en profundidad de la construcción elemental de las formas visuales permite al visualizador una mayor libertad y un mayor número de opciones en la composición; esas opciones son esenciales para el comunicador visual.
@@ -534,8 +535,8 @@
           .bloque-texto-f__comillas.c--4
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto.text-center.mt-4 “Tanto las artes visuales como la comunicación visual son consideradas fundamentales para el desarrollo de la capacidad del individuo de percibir e interpretar críticamente las formas y las imágenes del entorno del individuo. Todos los objetos, espacios y comunicaciones visuales van más allá de la utilidad comercial o de uso”. 
-            h3.mb-0  (Machuca, 2011)
+          h4.text-regular.bloque-texto-f__texto.text-center.mt-4 Tanto las artes visuales como la comunicación visual son consideradas fundamentales para el desarrollo de la capacidad del individuo de percibir e interpretar críticamente las formas y las imágenes del entorno del individuo. Todos los objetos, espacios y comunicaciones visuales van más allá de la utilidad comercial o de uso. 
+            h5.mb-0  (Machuca, 2011)
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
@@ -560,7 +561,7 @@
           .cuadro-hover__textos.text-center.text-white
             h2 Azul
             p.mb-0
-              b Representa el cielo que cubre la Patria, los ríos y los dos océanos que bañan el territorio colombiano.
+              b Representa el cielo que cubre la patria, los ríos y los dos océanos que bañan el territorio colombiano.
         .cuadro-hover.color--rojo.px-5.d-flex.align-items-center.justify-content-center
           .cuadro-hover__textos.text-center.text-white
             h2 Rojo 
@@ -593,26 +594,26 @@
       img(src="@/assets/curso/57.svg")
     p.mb-5 Estos filtros son: 
     .row.mb-5
-      .col-lg-4
+      .col-xl-4.mb-4
         .tarjeta.tarjetas-text.rounded-2(@mouseover="mostrarIndicador= false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/58.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
           .tarjetas-text__contenido.bg--amarillo-claro.px-5.pb-5.pt-3.mb-3
-            h3 Sensorial  
+            h3.mb-2 Sensorial  
             p Son las características físicas que el receptor tiene y que le permitirán recibir el mensaje, como problemas de visión, impedimento físico, entre otros.
-      .col-lg-4
+      .col-xl-4.mb-4
         .tarjeta.tarjetas-text.rounded-2(@mouseover="mostrarIndicador= false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/59.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
           .tarjetas-text__contenido.bg--amarillo-claro.px-5.pb-5.pt-3.mb-3
-            h3 Operativo  
+            h3.mb-2 Operativo  
             p Son las características constitucionales del receptor, es decir, la edad, el género, el contexto de desarrollo, las diferentes situaciones que enfrenta.
-      .col-lg-4
+      .col-xl-4.mb-4
         .tarjeta.tarjetas-text.rounded-2(@mouseover="mostrarIndicador= false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/60.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
           .tarjetas-text__contenido.bg--amarillo-claro.px-5.pb-5.pt-3.mb-3
-            h3 Filtro cultural 
+            h3.mb-2 Filtro cultural 
             p Permite el paso de aquello que el receptor reconoce. Están relacionados con la religión, filosofía, valores y creencias, debido a que cada individuo tiene diferentes sistemas de creencias que determinarán si el mensaje llega a impactar positiva o negativamente.
     p.mb-5 Cuando se entabla una comunicación, se debe tener presente que, al momento de expresar una idea o un contexto, se reciben mensajes visuales en tres categorías:
     .row.mb-5
@@ -620,7 +621,7 @@
         .tarjeta-avatar.tarjeta-avatar-hover
           img(src='@/assets/curso/61.svg' alt='AvatarTop')
           img(src='@/assets/curso/60.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido.w-100
+          .tarjeta.color-primario.w-100
             .text-white.text-center.p-4.mt-3.text-system
               h4 Representacionalmente: 
               p Lo que se ve y se reconoce del entorno y la experiencia. 
@@ -754,8 +755,8 @@
           .bloque-texto-f__comillas.c--4
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto.text-center.mt-4 “La retórica de la imagen se refiere a la efectividad y a la naturaleza persuasiva del lenguaje. Estos pueden darse en la publicidad, la prensa o cualquier otro medio donde el lector atribuya valores de verdad y confianza”. 
-            h3.mb-0  Karam (2006)
+          h4.text-regular.bloque-texto-f__texto.text-center.mt-4 La retórica de la imagen se refiere a la efectividad y a la naturaleza persuasiva del lenguaje. Estos pueden darse en la publicidad, la prensa o cualquier otro medio donde el lector atribuya valores de verdad y confianza. 
+            h5.mb-0  Karam (2006)
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')

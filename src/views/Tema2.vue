@@ -68,7 +68,7 @@
               figure
                 img(src='@/assets/curso/87.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              p Los derechos de explotación de la obra se comunican, mortis causa, por cualquiera de los canales admitidos en derecho.
+              p Los derechos de explotación de la obra se comunican, <i>mortis causa</i>, por cualquiera de los canales admitidos en derecho.
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0
               p Se pueden transmitir por actos. La Ley de Propiedad Intelectual legaliza al titular de los derechos por ella reconocidos para pedir el cese de la actividad ilícita de un infractor y puede requerir la indemnización de los daños materiales y morales causados.
@@ -92,7 +92,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10(data-aos='zoom-in-up')
         .bg--2-claro.p-5.hover
-          p.mb-0 <b>Los derechos intelectuales a los que hace referencia la Ley 11.723 del Régimen Legal de La Propiedad Intelectual</b> comprenden una amplia gama de posibilidades de tutoría de la ley sobre las obras de los artistas, científicos, escritores, e inclusive programadores de software. Dentro de los artistas, se incluyen los músicos, dramaturgos, cineastas, coreógrafos, dibujantes, pintores, escultores y otras manifestaciones de arte. Así como las obras arquitectónicas, modelos y obras de arte o ciencia aplicadas al comercio o industria.
+          p.mb-0 <b>Los derechos intelectuales a los que hace referencia la Ley 11.723 del Régimen Legal de La Propiedad Intelectual</b> comprenden una amplia gama de posibilidades de tutoría de la ley sobre las obras de los artistas, científicos, escritores, e inclusive programadores de <i>software</i>. Dentro de los artistas, se incluyen los músicos, dramaturgos, cineastas, coreógrafos, dibujantes, pintores, escultores y otras manifestaciones de arte. Así como las obras arquitectónicas, modelos y obras de arte o ciencia aplicadas al comercio o industria.
     p.mb-5 En otras palabras, la ley regula la propiedad o derechos del autor de <b>“toda producción científica, literaria, artística o didáctica, sea cual fuere el procedimiento de reproducción”</b>. (texto ordenado según Ley 11.723).
       br
       br
@@ -112,21 +112,21 @@
           p.mb-0 <b>La obtención de variedades vegetales</b>, que incluye todo lo relacionado con las variedades e innovaciones en el campo de la botánica, del reino vegetal.
     p.mb-5 Los derechos de propiedad intelectual están bajo la responsabilidad de tres entidades: 
     .row.mb-5
-      .col-lg-4
+      .col-xl-4.mb-3
         .tarjeta.tarjetas-text.color-acento-contenido--borde.border-2(@mouseover="mostrarIndicador= false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/91.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
           .tarjetas-text__contenido.bg--2-claro.px-5.pb-5.pt-3.mb-3
             h3 La SIC
             p Se encuentra a cargo de la propiedad industrial.
-      .col-lg-4
+      .col-xl-4.mb-3
         .tarjeta.tarjetas-text.color-acento-contenido--borde.border-2(@mouseover="mostrarIndicador= false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/92.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
           .tarjetas-text__contenido.bg--2-claro.px-5.pb-5.pt-3.mb-3
             h3 La DNDA
             p La Dirección Nacional de Derecho de Autor, es responsable del derecho de autor y los derechos conexos, entre otros.
-      .col-lg-4
+      .col-xl-4.mb-3
         .tarjeta.tarjetas-text.color-acento-contenido--borde.border-2(@mouseover="mostrarIndicador= false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/93.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
@@ -223,10 +223,10 @@
                 span.visually-hidden Next
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 En el derecho de autor la ley protege al autor de la obra, declarando a favor de este el derecho que posee. En cambio, en el sistema de Copyright, la ley va a proteger al autor una vez que este cumpla con una serie de formalidades establecidas por la ley para tal fin.
+        p.mb-3 En el derecho de autor la ley protege al autor de la obra, declarando a favor de este el derecho que posee. En cambio, en el sistema de <i>Copyright</i>, la ley va a proteger al autor una vez que este cumpla con una serie de formalidades establecidas por la ley para tal fin.
           br
           br
-          |En este orden de ideas, como segundo momento, se encuentra el <b>Copyright</b>, principalmente. No obstante, es una mezcla de ambos, debido a que protege los derechos morales, que son los que le confieren al autor la paternidad y la integridad de la obra como suya, mientras que en el sistema de Copyright, se ha delegado a los tribunales que intervienen en el derecho moral.
+          |En este orden de ideas, como segundo momento, se encuentra el <b><i>Copyright</i></b>, principalmente. No obstante, es una mezcla de ambos, debido a que protege los derechos morales, que son los que le confieren al autor la paternidad y la integridad de la obra como suya, mientras que, en el sistema de <i>Copyright</i>, se ha delegado a los tribunales que intervienen en el derecho moral.
           br
           br
           |El derecho de autor es esencialmente individualista, sosteniendo a este como un derecho personal e inalienable del autor, persona física, a controlar el uso de las obras de creación.
@@ -319,7 +319,7 @@
             figure
               img(src='@/assets/curso/119.jpg', alt='Texto que describa la imagen')
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Copyright
+      h2 2.2 <i>Copyright</i>
     .bg--3-claro.p-5.position-relative.hover.hover-flip.mb-5
       .img-up(style='position: absolute; top: -20%; left: 0% ; width: 100%; height: 100%;')
         figure
@@ -329,7 +329,7 @@
         p.fw-bold.text-center (Peiró, 2020)
     p.mb-5 Para la comprensión del <i>copyright</i>, es necesario tener en cuenta:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--azul-claro")
-      .row(titulo="¿Qué tipos de obras están protegidas por el copyright?").px-5
+      .row(titulo="¿Qué tipos de obras están protegidas por el <i>copyright</i>?").px-5
         .col-md-8.mb-4.mb-md-0
           ol.lista-ol--cuadro
             li 
@@ -369,24 +369,24 @@
         .col-md-4
           figure
             img(src='@/assets/curso/109.jpg', alt='Texto que describa la imagen')
-      .row(titulo="¿Qué tipos de obras están protegidas por el copyright?").px-5
+      .row(titulo="¿Cómo registrar los derechos de autor?").px-5
         .col-md-8.mb-4.mb-md-0
           p Es importante que, al momento de crear una obra, esta sea registrada. Esto requiere hacer una serie de pasos que cada país determina según sus normas vigentes y leyes correspondientes.
             br
-            |Con el fin de dar a conocer cómo se puede registrar una obra, se invita al aprendiz a revisar el sitio web Dirección Nacional de Derecho de Autor, registro de obra, ubicado en la sección de material complementario.
+            |Con el fin de dar a conocer cómo se puede registrar una obra, se invita al aprendiz a revisar el sitio <i>web</i> Dirección Nacional de Derecho de Autor, registro de obra, ubicado en la sección de material complementario.
             br
             br
             |La información sobre este proceso se puede consultar en
-          .col-lg-9
-            a.anexo.mb-4.mb-lg-0(href="http://derechodeautor.gov.co/registro-de-obras1" target="_blank")
+          .col-lg-12
+            a.anexo.mb-4.mb-lg-12(href="http://derechodeautor.gov.co/registro-de-obras1" target="_blank" style="height: fit-content")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
+              .anexo__texto(style="width: 100%")
                 p <b>Enlace web.</b> http://derechodeautor.gov.co/registro-de-obras1
         .col-md-4
           figure
             img(src='@/assets/curso/110.jpg', alt='Texto que describa la imagen')
-      .row(titulo="¿Por qué es importante el copyright?").px-5
+      .row(titulo="¿Por qué es importante el <i>copyright</i>?").px-5
         .col-md-8.mb-4.mb-md-0
           p Al momento de crear y registrar una obra, el autor se beneficia en: 
           ul.lista-ol--cuadro
@@ -487,7 +487,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-acento-contenido.bg--1-claro.p-4.mb-4.hover
-          p.mb-0 Tipos de obras protegidas por el derecho de autor: la Decisión 351 de 1993, en su Artículo 4, señala la protección de todas las obras literarias, artísticas y científicas que puedan reproducirse o divulgarse por cualquier forma o medio conocido o por conocer, entre estas obras se encuentran:
+          p.mb-0 Tipos de obras protegidas por el derecho de autor: <b>la Decisión 351 de 1993, en su Artículo 4</b>, señala la protección de todas las obras literarias, artísticas y científicas que puedan reproducirse o divulgarse por cualquier forma o medio conocido o por conocer, entre estas obras se encuentran:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--azul-claro")
       .row(titulo="Obras literarias: ").px-5
         .col-md-4.mb-4.mb-md-0: img(src="@/assets/curso/120.jpg")
@@ -505,19 +505,19 @@
       .row(titulo="Obra audiovisual: ").px-5
         .col-md-4.mb-4.mb-md-0: img(src="@/assets/curso/123.jpg")
         .col-md-8.mb-4.mb-md-0
-          p.fst-italic <b>"toda creación expresada mediante una serie de imágenes asociadas, con o sin sonorización incorporada, que esté destinada esencialmente a ser mostrada a través de aparatos de proyección o cualquier otro medio de comunicación de la imagen y de sonido, independientemente de las características del soporte material que la contiene"</b> (Decisión 351 de 1993, Artículo 3).
-      .row(titulo="Programa de ordenador o software: ").px-5
+          p.fst-italic <b>"Toda creación expresada mediante una serie de imágenes asociadas, con o sin sonorización incorporada, que esté destinada esencialmente a ser mostrada a través de aparatos de proyección o cualquier otro medio de comunicación de la imagen y de sonido, independientemente de las características del soporte material que la contiene"</b> (Decisión 351 de 1993, Artículo 3).
+      .row(titulo="Programa de ordenador o <i>software</i>: ").px-5
         .col-md-4.mb-4.mb-md-0: img(src="@/assets/curso/124.jpg")
         .col-md-8.mb-4.mb-md-0
-          p.fst-italic <b>"expresión de un conjunto de instrucciones mediante palabras, códigos, planes o en cualquier otra forma que, al ser incorporadas en un dispositivo de lectura automatizada, es capaz de hacer que un ordenador -un aparato electrónico o similar capaz de elaborar informaciones-, ejecute determinada tarea u obtenga determinado resultado. El programa de ordenador comprende también la documentación técnica y los manuales de uso"</b> (Decisión 351 de 1993, artículo 3).
+          p.fst-italic <b>"Expresión de un conjunto de instrucciones mediante palabras, códigos, planes o en cualquier otra forma que, al ser incorporadas en un dispositivo de lectura automatizada, es capaz de hacer que un ordenador -un aparato electrónico o similar capaz de elaborar informaciones-, ejecute determinada tarea u obtenga determinado resultado. El programa de ordenador comprende también la documentación técnica y los manuales de uso"</b> (Decisión 351 de 1993, artículo 3).
       .row(titulo="Fonograma: ").px-5
         .col-md-4.mb-4.mb-md-0: img(src="@/assets/curso/125.jpg")
         .col-md-8.mb-4.mb-md-0
-          p.fst-italic <b>"toda fijación exclusivamente sonora de los sonidos de una representación o ejecución o de otros sonidos. Las grabaciones gramofónicas y magnetofónicas se consideran copias de fonogramas"</b> (Decisión 351 de 1993, Artículo 3).
+          p.fst-italic <b>"Toda fijación exclusivamente sonora de los sonidos de una representación o ejecución o de otros sonidos. Las grabaciones gramofónicas y magnetofónicas se consideran copias de fonogramas"</b> (Decisión 351 de 1993, Artículo 3).
       .row(titulo="Bases de datos: ").px-5
         .col-md-4.mb-4.mb-md-0: img(src="@/assets/curso/126.jpg")
         .col-md-8.mb-4.mb-md-0
-          p.fst-italic <b>“las bases de datos son protegidas siempre que la selección o disposición de las materias constituyan una creación intelectual. La protección concedida no se hará extensiva a los datos o información compilados, pero no afectará los derechos que pudieran subsistir sobre las obras o materiales que la conforman”.</b>  (Decisión 351 de 1993, artículo 25).
+          p.fst-italic <b>“Las bases de datos son protegidas siempre que la selección o disposición de las materias constituyan una creación intelectual. La protección concedida no se hará extensiva a los datos o información compilados, pero no afectará los derechos que pudieran subsistir sobre las obras o materiales que la conforman”.</b>  (Decisión 351 de 1993, artículo 25).
     .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-around.align-items-center.position-relative
             img.position-absolute.d-none.d-lg-block(src="@/assets/curso/127.svg" alt="Adornos flotantes" style="width: 132px ; left: 3% ; top: -50% ")
@@ -525,7 +525,7 @@
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col-9.mb-3.mb-sm-0
-                  p.mb-0.fw-bold Para una mayor información, se invita al aprendiz a consultar el sitio web de la Dirección Nacional de Derecho de Autor – DNDA, en su sección de preguntas frecuentes, ubicado en la sección de material complementario.
+                  p.mb-0.fw-bold Para una mayor información, se invita al aprendiz a consultar el sitio <i>web</i> de la Dirección Nacional de Derecho de Autor – DNDA, en su sección de preguntas frecuentes, ubicado en la sección de material complementario.
                 .col-3
                   a.boton.color-acento-contenido.tb.m-auto(href='http://derechodeautor.gov.co:8080/registro-de-obras1' target='_blank').text-system
                     span Enlace
@@ -586,4 +586,19 @@ export default {
   background-color: #b7eef3 !important
 .bg--azul-claro
   background-color: #dbf6f9
+.bg-texture
+  background-image: url('../assets/curso/bg-texture.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.tarjetas-text__contenido
+  @media (min-width: $bp-min-lg)
+    font-size: 14px
+  @media (max-width: $bp-min-md)
+    font-size: 16px
+.img-up
+  @media (max-width: $bp-min-md)
+    position: relative !important
+.anexo
+  width: fit-content
 </style>

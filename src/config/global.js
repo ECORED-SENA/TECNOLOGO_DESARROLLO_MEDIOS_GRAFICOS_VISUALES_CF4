@@ -31,25 +31,25 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Técnicas de comunicación',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Comunicación visual',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Imagen y sociedad ',
-            hash: 'botones',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Semiótica, retórica y sintaxis de la imagen',
-            hash: 'listas',
+            hash: 't_1_4',
           },
         ],
       },
@@ -194,11 +194,11 @@ export default {
   glosario: [
     {
       termino: 'API',
-      significado: 'Aula de Propiedad Intelectual.',
+      significado: ' Aula de Propiedad Intelectual.',
     },
     {
       termino: 'CAN',
-      significado: 'Comunidad Andina de Naciones.',
+      significado: ' Comunidad Andina de Naciones.',
     },
     {
       termino: 'Comunicación Visual',
@@ -212,7 +212,7 @@ export default {
     },
     {
       termino: 'DNDA',
-      significado: 'Dirección Nacional de Derecho de Autor.',
+      significado: ' Dirección Nacional de Derecho de Autor.',
     },
     {
       termino: 'Imagen',
@@ -230,7 +230,7 @@ export default {
     },
     {
       termino: 'OMPI',
-      significado: 'Organización Mundial de Propiedad Intelectual.',
+      significado: ' Organización Mundial de Propiedad Intelectual.',
     },
     {
       termino: 'Semiótica',
@@ -244,14 +244,14 @@ export default {
     },
     {
       termino: 'SIC',
-      significado: 'Superintendencia de Industria y Comercio.',
+      significado: ' Superintendencia de Industria y Comercio.',
     },
   ],
   complementario: [
     {
       texto:
         'Dirección Nacional de Derecho de Autor. (s. f.). Registro de Obras. Mininterior. ',
-      tipo: 'Página Web',
+      tipo: 'Página <i>web</i>',
       link: 'http://derechodeautor.gov.co:8080/registro-de-obras1',
     },
   ],
@@ -335,7 +335,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
