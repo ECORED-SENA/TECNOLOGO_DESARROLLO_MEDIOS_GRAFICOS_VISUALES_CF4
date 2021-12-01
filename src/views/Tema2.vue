@@ -532,7 +532,7 @@
                     i.fas.fa-link
     p.mb-5 Finalmente y con el fin de sintetizar el contenido de este componente formativo, se presenta el siguiente mapa conceptual:
     figure
-      img(src="@/assets/curso/128.png" alt="Mapa conceptual")
+      img(src="@/assets/curso/128.svg" alt="Mapa conceptual")
 
 </template>
 
