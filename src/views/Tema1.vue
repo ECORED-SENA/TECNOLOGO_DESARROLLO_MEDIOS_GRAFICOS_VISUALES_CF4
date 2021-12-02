@@ -253,7 +253,7 @@
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center.mt-4 La comunicación visual es prácticamente todo lo que ven nuestros ojos; una nube, una flor, un dibujo técnico, un zapato, un cartel, una libélula, un telegrama (excluyendo su contenido), una bandera. Imágenes que, como todas las demás, tienen un valor distinto, según el contexto en el que están insertas, dando informaciones diferentes … Dado que se le está otorgando valor comunicativo a lo que puede percibirse con la vista, se debe aclarar que algunos mensajes serían casuales y otros intencionales; la comunicación visual casual es la que no tiene intención alguna, es temporal y puede ser percibida o interpretada libremente por el receptor, dándole un significado científico o estético; por su parte, la comunicación visual intencional es recibida en pleno significado, con una intención del emisor, si bien la intencionalidad no libra al receptor de realizar interpretaciones. 
           .bloque-texto-f__autor.mb-3
-            h3.mb-0  (Munari, 1985)
+            h5.mb-0  (Munari, 1985)
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
@@ -303,7 +303,7 @@
         p Quien recibe el mensaje; debe conocer los signos con el objetivo de comunicar el mensaje. 
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Elementos de la comunicación visual
-    p.mb-5 Los elementos visuales constituyen la base de lo que un ser humano puede ver: los elementos visuales constituyen la base de lo que un ser humano puede ver:
+    p.mb-5 Los elementos visuales constituyen la base de lo que un ser humano puede ver:
     .d-flex.flex-wrap.mb-5
       .tarjeta.tarjeta-flip.bg--4-claro.m-1(@mouseover="indicadorTarjetaFlip = false")
         .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -536,6 +536,7 @@
             i.fas.fa-quote-left
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center.mt-4 Tanto las artes visuales como la comunicación visual son consideradas fundamentales para el desarrollo de la capacidad del individuo de percibir e interpretar críticamente las formas y las imágenes del entorno del individuo. Todos los objetos, espacios y comunicaciones visuales van más allá de la utilidad comercial o de uso. 
+          .bloque-texto-f__autor.mb-3
             h5.mb-0  (Machuca, 2011)
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img
@@ -736,7 +737,7 @@
               h4.text-center La semiótica de la imagen dinámica (lenguaje braille, la mímica, la radio).
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/77.jpg')})`}")
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.rounded-c0.tarjeta-slide.arriba.bg--2-claro(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.rounded-0.tarjeta-slide.arriba.bg--2-claro(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor(style='height: 426px').d-flex.justify-content-center.align-items-center
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -756,6 +757,7 @@
             i.fas.fa-quote-left
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center.mt-4 La retórica de la imagen se refiere a la efectividad y a la naturaleza persuasiva del lenguaje. Estos pueden darse en la publicidad, la prensa o cualquier otro medio donde el lector atribuya valores de verdad y confianza. 
+          .bloque-texto-f__autor.mb-3
             h5.mb-0  Karam (2006)
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img

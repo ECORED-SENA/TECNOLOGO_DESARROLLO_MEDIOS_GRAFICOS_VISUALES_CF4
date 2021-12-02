@@ -325,7 +325,7 @@
         figure
           img(src="@/assets/curso/108.svg" style='width: 138px').m-auto
       .texto(style='margin-top: 60px')
-        p.text-center El <i>copyright</i> representa los derechos de autor que se le conceden a los creadores de una obra literaria, tema musical o artículo científico, entre otros. Es la forma de atribuir la autoría a alguien que ha creado una obra, además de proporcionarle una serie de derechos como autor. Supone una forma de proteger esta obra para que su propio creador pueda gestionar los derechos de su contenido. Los derechos morales y patrimoniales de una obra están recogidos en el copyright de una creación de estas características. 
+        p.text-center El <i>copyright</i> representa los derechos de autor que se le conceden a los creadores de una obra literaria, tema musical o artículo científico, entre otros. Es la forma de atribuir la autoría a alguien que ha creado una obra, además de proporcionarle una serie de derechos como autor. Supone una forma de proteger esta obra para que su propio creador pueda gestionar los derechos de su contenido. Los derechos morales y patrimoniales de una obra están recogidos en el <i>copyright</i> de una creación de estas características. 
         p.fw-bold.text-center (Peiró, 2020)
     p.mb-5 Para la comprensión del <i>copyright</i>, es necesario tener en cuenta:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--azul-claro")
