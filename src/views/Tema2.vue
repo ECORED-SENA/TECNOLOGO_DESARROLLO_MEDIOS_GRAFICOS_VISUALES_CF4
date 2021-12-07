@@ -135,6 +135,9 @@
             p Aula de Propiedad Intelectual. Espacio académico de sensibilización y orientación sobre propiedad intelectual, que surge como una cooperación entre las dos primeras entidades y la Organización Mundial de Propiedad Intelectual – OMPI.
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Propiedad industrial 
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5DAsmI-spQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 Tradicionalmente, se ha venido identificando propiedad intelectual con derechos de autor. Sin embargo, esta última expresión hay que entenderla con sentido claramente diferenciado:
     .row.mb-5.justify-content-center
       .col-lg-6.mb-3
@@ -153,6 +156,9 @@
             img(src='@/assets/curso/98.jpg', alt='Texto que describa la imagen').m-auto
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Derechos de autor
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uKZZxlT4F5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-3 El derecho de autor es la rama de la propiedad intelectual que reconoce, en cabeza de los autores, ciertas prerrogativas morales y patrimoniales sobre sus obras artísticas y literarias que sean originales y susceptibles de ser divulgadas o reproducidas por cualquier medio. 

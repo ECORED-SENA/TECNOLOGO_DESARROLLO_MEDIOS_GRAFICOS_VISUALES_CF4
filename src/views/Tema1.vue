@@ -78,6 +78,9 @@
     p.mb-5 Las diferentes técnicas de comunicación son:
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Comunicación asertiva
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/sMT9eoUp_UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 Permite manifestar de forma positiva, clara, oportuna y simple un mensaje a un receptor, haciendo énfasis en lo que una persona pueda estar sintiendo, algo que esté pensando o simplemente hacer un pedido claro de algo. Es importante tener en cuenta que este tipo de comunicación:
     .row.mb-5
       .col-sm-6.col-xl-6.mb-4.mb-xl-0
@@ -220,6 +223,9 @@
                     button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
                       span.carousel-control-next-icon(aria-hidden='true')
                       span.visually-hidden Next
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MykEa-7nPRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 Una vez tratados los conceptos y las técnicas referentes a los diferentes tipos de comunicación, en este componente formativo se tomará como base la comunicación visual.
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Comunicación visual
