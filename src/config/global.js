@@ -341,12 +341,6 @@ export default {
       },
       {
         nombre: 'María Carolina Tamayo López',
-        cargo: 'Gilberto Junior Rodriguez Rodriguez',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'María Carolina Tamayo López',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
