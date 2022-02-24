@@ -12,11 +12,10 @@
           .row.justify-content-center
             .col-lg-9
               .carousel-indicators
-                button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+                button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' )
                 button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
                 button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
                 button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 1')
               .carousel-inner
                 .carousel-item.active.p-4
                   .row
@@ -179,12 +178,11 @@
           .row.justify-content-center
             .col-lg-9
               .carousel-indicators
-                button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+                button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' )
                 button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
                 button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='2' aria-label='Slide 3')
                 button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='3' aria-label='Slide 4')
                 button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='4' aria-label='Slide 5')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='5' aria-label='Slide 1')
               .carousel-inner
                 .carousel-item.active.p-4
                   .row.align-items-center
@@ -279,44 +277,44 @@
             ul.lista-ul--color.c--4
               li 
                 i.vineta
-                | Literarias
+                | Literarias.
               li 
                 i.vineta
-                | Musicales, con o sin letra
+                | Musicales, con o sin letra.
               li 
                 i.vineta
-                | Dramáticas
+                | Dramáticas.
               li 
                 i.vineta
-                | Danza
+                | Danza.
               li 
                 i.vineta
-                | Pictóricas o de dibujo
+                | Pictóricas o de dibujo.
               li 
                 i.vineta
-                | Escultóricas y de carácter plástico
+                | Escultóricas y de carácter plástico.
               li 
                 i.vineta
-                | Caricatura e historieta
+                | Caricatura e historieta.
               li 
                 i.vineta
-                | Arquitectónicas
+                | Arquitectónicas.
               li 
                 i.vineta
-                | Cinematográficas y audiovisuales
+                | Cinematográficas y audiovisuales.
 
               li 
                 i.vineta
-                | Programas de radio y TV
+                | Programas de radio y TV.
               li 
                 i.vineta
-                | Programas de cómputo
+                | Programas de cómputo.
               li 
                 i.vineta
-                | Fotográficas
+                | Fotográficas.
               li 
                 i.vineta
-                | Obras de arte aplicado (incluyen diseño gráfico o textil)
+                | Obras de arte aplicado (incluyen diseño gráfico o textil).
               li 
                 i.vineta
                 | Obras de compilación.
@@ -357,7 +355,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 5
-              | Dibujos, comics, pinturas.
+              | Dibujos, <em>comics</em>, pinturas.
             li 
               .lista-ol--cuadro__vineta
                 span 6
