@@ -231,20 +231,20 @@
       h2 1.2 Comunicación visual
     p.mb-5 La comunicación visual es el proceso por el cual se transmiten y se reciben ideas o mensajes a través de imágenes, símbolos, signos y otros elementos gráficos. Esta comunicación rompe las barreras del lenguaje porque puede ser entendida y comprendida sin importar un idioma, permite evocar emociones e inspirar cambios. Es importante tener en cuenta que: 
     .row.mb-5
-      .col-sm-12.col-xl-4.mb-4.mb-xl-0
+      .col-sm-12.col-xxl-4.mb-4.mb-xl-0
         .tarjeta.rounded-0.tarjeta-slide.arriba.bg--4-claro(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor(style='height: 400px')
             .tarjeta-slide__contenido.p-4.p-xl-5
               p Dentro del escenario de la comunicación visual, se le otorga una parte al diseño de comunicación, <b>con el cual se pretende plasmar un mensaje que llame la atención y deje claro el mensaje expuesto</b>. Por otro lado, el diseño gráfico toma una parte importante puesto que, partiendo de este, se puede comunicar el mensaje de forma clara y atractiva, en pocas palabras, se puede decir que la comunicación visual es informativa y atrayente.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/16.jpg')})`}")
-      .col-sm-12.col-xl-4.mb-4.mb-xl-0
+      .col-sm-12.col-xxl-4.mb-4.mb-xl-0
         .tarjeta.rounded-0.tarjeta-slide.abajo.bg--4-claro
           .tarjeta-slide__contenedor(style='height: 400px')
             .tarjeta-slide__contenido.p-4.p-xl-5
               p La comunicación visual, objetivamente, se basa en seleccionar los elementos adecuados, para ello, <b>es importante tener en cuenta textos, íconos, formas, imágenes y las visualizaciones de datos</b>, con el fin de dar un significado objetivo a un público determinado.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/17.jpg')})`}")
-      .col-sm-12.col-xl-4.mb-4.mb-xl-0
+      .col-sm-12.col-xxl-4.mb-4.mb-xl-0
         .tarjeta.rounded-0.tarjeta-slide.arriba.bg--4-claro
           .tarjeta-slide__contenedor(style='height: 400px')
             .tarjeta-slide__contenido.p-4.p-xl-5
