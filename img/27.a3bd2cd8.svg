@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="229" height="205" viewBox="0 0 229 205">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Elipse_4294" data-name="Elipse 4294" cx="55.535" cy="55.535" r="55.535" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_27" data-name="27" transform="translate(-180 -9811)">
+    <rect id="Rectángulo_35312" data-name="Rectángulo 35312" width="229" height="205" rx="20" transform="translate(180 9811)" fill="#fee578"/>
+    <g id="Grupo_120442" data-name="Grupo 120442" transform="translate(164.914 9475.998)">
+      <g id="Grupo_120441" data-name="Grupo 120441" transform="translate(74.086 382.002)" clip-path="url(#clip-path)">
+        <g id="Grupo_120440" data-name="Grupo 120440" transform="translate(0 0)">
+          <rect id="Rectángulo_37317" data-name="Rectángulo 37317" width="55.535" height="55.534" fill="#04c4ff"/>
+          <rect id="Rectángulo_37318" data-name="Rectángulo 37318" width="55.535" height="55.534" transform="translate(0 55.534)"/>
+          <rect id="Rectángulo_37319" data-name="Rectángulo 37319" width="55.534" height="55.534" transform="translate(55.535)" fill="#ff0c79"/>
+          <rect id="Rectángulo_37320" data-name="Rectángulo 37320" width="55.534" height="55.534" transform="translate(55.535 55.534)" fill="#fdd835"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
