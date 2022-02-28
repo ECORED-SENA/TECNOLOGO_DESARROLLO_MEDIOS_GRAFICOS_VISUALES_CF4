@@ -225,7 +225,7 @@
                       span.visually-hidden Next
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/MykEa-7nPRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/CtbzBccTaq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 Una vez tratados los conceptos y las técnicas referentes a los diferentes tipos de comunicación, en este componente formativo se tomará como base la comunicación visual.
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Comunicación visual
